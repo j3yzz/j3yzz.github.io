@@ -598,6 +598,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -685,9 +689,19 @@ video {
   color: rgb(51 65 85 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .md\:flex {
@@ -700,5 +714,11 @@ video {
 
   .md\:justify-center {
     justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
   }
 }
