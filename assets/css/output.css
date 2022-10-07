@@ -624,6 +624,10 @@ video {
   justify-content: center;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .bg-pattern {
   background-image: url('/assets/img/bg.svg');
 }
@@ -639,6 +643,14 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .text-center {
